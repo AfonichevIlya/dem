@@ -11,14 +11,15 @@ main {
   max-width: 1400px;
   min-height: 900px;
 }
-
+h3 {
+  line-height: 150%;
+}
 /* Заголовок 1 уровня */
 h1 {
   font-family: "Roboto", sans-serif; /* Изменяем шрифт */
   font-optical-sizing: auto;
   font-weight: 700; /* Более жирный шрифт */
-  font-style: normal;
-  color: #61dafb; /* Изменяем цвет текста заголовка */
+  color: #ffffff; /* Изменяем цвет текста заголовка */
 }
 
 /* Заголовок 2 уровня */
@@ -28,18 +29,18 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 24px; /* Увеличиваем размер шрифта */
-  color: #61dafb; /* Изменяем цвет текста заголовка */
+  color: #ffffff; /* Изменяем цвет текста заголовка */
 }
 
 /* Стили для ссылок */
 a {
-  color: #ff79c6; /* Изменяем цвет ссылок */
+  color: #45b35d; /* Изменяем цвет ссылок */
   text-decoration: none; /* Убираем подчеркивание */
 }
 
 /* Добавляем hover-эффект для ссылок */
 a:hover {
-  color: #bd93f9; /* Изменяем цвет ссылок при наведении */
+  color: #94ffab; /* Изменяем цвет ссылок при наведении */
   text-decoration: underline; /* Подчеркивание при наведении */
 }
 .card {
@@ -72,11 +73,11 @@ a:hover {
 /* Стили для заголовков внутри card-body */
 .card-body h4 {
   font-family: "Lora", serif; /* Шрифт */
-  color: #61dafb; /* Цвет заголовка */
+  color: #ffffff; /* Цвет заголовка */
   margin-bottom: 10px; /* Отступ снизу */
 }
 .card {
   font-family: "Lora", serif; /* Шрифт */
-  color: #61dafb; /* Цвет заголовка */
+  color: #ffffff; /* Цвет заголовка */
   margin-bottom: 10px; /* Отступ снизу */
 }

@@ -20,6 +20,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/where">Как нас найти?</a>
         </li>
+        <% if (usercheck == 'admin') {%>
+        <div class="col"><a href="/admin">Панель администратора</a></div>
+        <% }%>
       </ul>
       <% if (usercheck == 'guest') {%>
 
@@ -30,12 +33,15 @@
       </div>
       <% }else {%>
       <div class="me-2">
-        <a href="/profile">
-          <button type="button" class="btn btn-outline-light">
-            Профиль
-          </button></a
-        >
+        <a href="/profile" class="btn btn-outline-light"> Профиль </a>
       </div>
+      <form action="/auth/logout" method="post" id="myForm">
+        <div>
+          <button type="submit" id="post-btn" class="btn btn-danger">
+            Выйти
+          </button>
+        </div>
+      </form>
       <% }%>
     </div>
   </div>
