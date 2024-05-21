@@ -1,0 +1,82 @@
+/* Изменяем фон и изображение фона */
+body {
+  background-image: url(../img/0cf1432a-2165-4387-a7fa-043dc990d7da.jpg);
+  background-color: #282c34; /* Изменяем цвет фона */
+  color: #ffffff; /* Изменяем цвет текста */
+}
+
+/* Основной контейнер */
+main {
+  margin: auto;
+  max-width: 1400px;
+  min-height: 900px;
+}
+
+/* Заголовок 1 уровня */
+h1 {
+  font-family: "Roboto", sans-serif; /* Изменяем шрифт */
+  font-optical-sizing: auto;
+  font-weight: 700; /* Более жирный шрифт */
+  font-style: normal;
+  color: #61dafb; /* Изменяем цвет текста заголовка */
+}
+
+/* Заголовок 2 уровня */
+h2 {
+  font-family: "Lora", serif; /* Изменяем шрифт */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px; /* Увеличиваем размер шрифта */
+  color: #61dafb; /* Изменяем цвет текста заголовка */
+}
+
+/* Стили для ссылок */
+a {
+  color: #ff79c6; /* Изменяем цвет ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+/* Добавляем hover-эффект для ссылок */
+a:hover {
+  color: #bd93f9; /* Изменяем цвет ссылок при наведении */
+  text-decoration: underline; /* Подчеркивание при наведении */
+}
+.card {
+  background-color: #444c56; /* Фоновый цвет */
+  border: 1px solid #555c68; /* Граница */
+  border-radius: 10px; /* Скругленные углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+  margin: 20px; /* Внешние отступы */
+  padding: 20px; /* Внутренние отступы */
+  overflow: hidden; /* Обрезка содержимого, выходящего за пределы */
+}
+
+.card-body {
+  background-color: #333844; /* Фоновый цвет */
+  border: 1px solid #444c56; /* Граница */
+  border-radius: 8px; /* Скругленные углы */
+  padding: 20px; /* Внутренние отступы */
+  color: #e0e0e0; /* Цвет текста */
+  font-family: "Roboto", sans-serif; /* Шрифт */
+  font-size: 16px; /* Размер шрифта */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+/* Дополнительные стили для текста внутри card-body */
+.card-body p {
+  margin-bottom: 15px; /* Отступы между параграфами */
+  line-height: 1.5; /* Высота строки */
+}
+
+/* Стили для заголовков внутри card-body */
+.card-body h4 {
+  font-family: "Lora", serif; /* Шрифт */
+  color: #61dafb; /* Цвет заголовка */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+.card {
+  font-family: "Lora", serif; /* Шрифт */
+  color: #61dafb; /* Цвет заголовка */
+  margin-bottom: 10px; /* Отступ снизу */
+}
